@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCFF5251D37A3FF00F2E75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5241D37A3FF00F2E75B /* AppDelegate.swift */; };
+		4CCFF5271D37A3FF00F2E75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5261D37A3FF00F2E75B /* ViewController.swift */; };
+		4CCFF52A1D37A3FF00F2E75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFF5281D37A3FF00F2E75B /* Main.storyboard */; };
+		4CCFF52C1D37A3FF00F2E75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFF52B1D37A3FF00F2E75B /* Assets.xcassets */; };
+		4CCFF52F1D37A3FF00F2E75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCFF52D1D37A3FF00F2E75B /* LaunchScreen.storyboard */; };
+		4CCFF53A1D37A3FF00F2E75B /* Gib_pruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5391D37A3FF00F2E75B /* Gib_pruebaTests.swift */; };
+		4CCFF5451D37A3FF00F2E75B /* Gib_pruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCFF5441D37A3FF00F2E75B /* Gib_pruebaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCFF5361D37A3FF00F2E75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCFF5191D37A3FF00F2E75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCFF5201D37A3FF00F2E75B;
+			remoteInfo = "Gib prueba";
+		};
+		4CCFF5411D37A3FF00F2E75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCFF5191D37A3FF00F2E75B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCFF5201D37A3FF00F2E75B;
+			remoteInfo = "Gib prueba";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCFF5211D37A3FF00F2E75B /* Gib prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gib prueba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCFF5241D37A3FF00F2E75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCFF5261D37A3FF00F2E75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CCFF5291D37A3FF00F2E75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCFF52B1D37A3FF00F2E75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCFF52E1D37A3FF00F2E75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCFF5301D37A3FF00F2E75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCFF5351D37A3FF00F2E75B /* Gib pruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gib pruebaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCFF5391D37A3FF00F2E75B /* Gib_pruebaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gib_pruebaTests.swift; sourceTree = "<group>"; };
+		4CCFF53B1D37A3FF00F2E75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCFF5401D37A3FF00F2E75B /* Gib pruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gib pruebaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCFF5441D37A3FF00F2E75B /* Gib_pruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gib_pruebaUITests.swift; sourceTree = "<group>"; };
+		4CCFF5461D37A3FF00F2E75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCFF51E1D37A3FF00F2E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF5321D37A3FF00F2E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF53D1D37A3FF00F2E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCFF5181D37A3FF00F2E75B = {
+			isa = PBXGroup;
+			children = (
+				4CCFF5231D37A3FF00F2E75B /* Gib prueba */,
+				4CCFF5381D37A3FF00F2E75B /* Gib pruebaTests */,
+				4CCFF5431D37A3FF00F2E75B /* Gib pruebaUITests */,
+				4CCFF5221D37A3FF00F2E75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCFF5221D37A3FF00F2E75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFF5211D37A3FF00F2E75B /* Gib prueba.app */,
+				4CCFF5351D37A3FF00F2E75B /* Gib pruebaTests.xctest */,
+				4CCFF5401D37A3FF00F2E75B /* Gib pruebaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCFF5231D37A3FF00F2E75B /* Gib prueba */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFF5241D37A3FF00F2E75B /* AppDelegate.swift */,
+				4CCFF5261D37A3FF00F2E75B /* ViewController.swift */,
+				4CCFF5281D37A3FF00F2E75B /* Main.storyboard */,
+				4CCFF52B1D37A3FF00F2E75B /* Assets.xcassets */,
+				4CCFF52D1D37A3FF00F2E75B /* LaunchScreen.storyboard */,
+				4CCFF5301D37A3FF00F2E75B /* Info.plist */,
+			);
+			path = "Gib prueba";
+			sourceTree = "<group>";
+		};
+		4CCFF5381D37A3FF00F2E75B /* Gib pruebaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFF5391D37A3FF00F2E75B /* Gib_pruebaTests.swift */,
+				4CCFF53B1D37A3FF00F2E75B /* Info.plist */,
+			);
+			path = "Gib pruebaTests";
+			sourceTree = "<group>";
+		};
+		4CCFF5431D37A3FF00F2E75B /* Gib pruebaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCFF5441D37A3FF00F2E75B /* Gib_pruebaUITests.swift */,
+				4CCFF5461D37A3FF00F2E75B /* Info.plist */,
+			);
+			path = "Gib pruebaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCFF5201D37A3FF00F2E75B /* Gib prueba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCFF5491D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib prueba" */;
+			buildPhases = (
+				4CCFF51D1D37A3FF00F2E75B /* Sources */,
+				4CCFF51E1D37A3FF00F2E75B /* Frameworks */,
+				4CCFF51F1D37A3FF00F2E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gib prueba";
+			productName = "Gib prueba";
+			productReference = 4CCFF5211D37A3FF00F2E75B /* Gib prueba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCFF5341D37A3FF00F2E75B /* Gib pruebaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCFF54C1D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib pruebaTests" */;
+			buildPhases = (
+				4CCFF5311D37A3FF00F2E75B /* Sources */,
+				4CCFF5321D37A3FF00F2E75B /* Frameworks */,
+				4CCFF5331D37A3FF00F2E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCFF5371D37A3FF00F2E75B /* PBXTargetDependency */,
+			);
+			name = "Gib pruebaTests";
+			productName = "Gib pruebaTests";
+			productReference = 4CCFF5351D37A3FF00F2E75B /* Gib pruebaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCFF53F1D37A3FF00F2E75B /* Gib pruebaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCFF54F1D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib pruebaUITests" */;
+			buildPhases = (
+				4CCFF53C1D37A3FF00F2E75B /* Sources */,
+				4CCFF53D1D37A3FF00F2E75B /* Frameworks */,
+				4CCFF53E1D37A3FF00F2E75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCFF5421D37A3FF00F2E75B /* PBXTargetDependency */,
+			);
+			name = "Gib pruebaUITests";
+			productName = "Gib pruebaUITests";
+			productReference = 4CCFF5401D37A3FF00F2E75B /* Gib pruebaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCFF5191D37A3FF00F2E75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jose Luis Gonzalez Gomez";
+				TargetAttributes = {
+					4CCFF5201D37A3FF00F2E75B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4CCFF5341D37A3FF00F2E75B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CCFF5201D37A3FF00F2E75B;
+					};
+					4CCFF53F1D37A3FF00F2E75B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4CCFF5201D37A3FF00F2E75B;
+					};
+				};
+			};
+			buildConfigurationList = 4CCFF51C1D37A3FF00F2E75B /* Build configuration list for PBXProject "Gib prueba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCFF5181D37A3FF00F2E75B;
+			productRefGroup = 4CCFF5221D37A3FF00F2E75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCFF5201D37A3FF00F2E75B /* Gib prueba */,
+				4CCFF5341D37A3FF00F2E75B /* Gib pruebaTests */,
+				4CCFF53F1D37A3FF00F2E75B /* Gib pruebaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCFF51F1D37A3FF00F2E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFF52F1D37A3FF00F2E75B /* LaunchScreen.storyboard in Resources */,
+				4CCFF52C1D37A3FF00F2E75B /* Assets.xcassets in Resources */,
+				4CCFF52A1D37A3FF00F2E75B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF5331D37A3FF00F2E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF53E1D37A3FF00F2E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCFF51D1D37A3FF00F2E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFF5271D37A3FF00F2E75B /* ViewController.swift in Sources */,
+				4CCFF5251D37A3FF00F2E75B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF5311D37A3FF00F2E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFF53A1D37A3FF00F2E75B /* Gib_pruebaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCFF53C1D37A3FF00F2E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCFF5451D37A3FF00F2E75B /* Gib_pruebaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCFF5371D37A3FF00F2E75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCFF5201D37A3FF00F2E75B /* Gib prueba */;
+			targetProxy = 4CCFF5361D37A3FF00F2E75B /* PBXContainerItemProxy */;
+		};
+		4CCFF5421D37A3FF00F2E75B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCFF5201D37A3FF00F2E75B /* Gib prueba */;
+			targetProxy = 4CCFF5411D37A3FF00F2E75B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCFF5281D37A3FF00F2E75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCFF5291D37A3FF00F2E75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCFF52D1D37A3FF00F2E75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCFF52E1D37A3FF00F2E75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCFF5471D37A3FF00F2E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCFF5481D37A3FF00F2E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCFF54A1D37A3FF00F2E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gib prueba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-prueba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CCFF54B1D37A3FF00F2E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gib prueba/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-prueba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CCFF54D1D37A3FF00F2E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gib pruebaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-pruebaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gib prueba.app/Gib prueba";
+			};
+			name = Debug;
+		};
+		4CCFF54E1D37A3FF00F2E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gib pruebaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-pruebaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gib prueba.app/Gib prueba";
+			};
+			name = Release;
+		};
+		4CCFF5501D37A3FF00F2E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gib pruebaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-pruebaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gib prueba";
+			};
+			name = Debug;
+		};
+		4CCFF5511D37A3FF00F2E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gib pruebaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dehesa.Gib-pruebaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gib prueba";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCFF51C1D37A3FF00F2E75B /* Build configuration list for PBXProject "Gib prueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCFF5471D37A3FF00F2E75B /* Debug */,
+				4CCFF5481D37A3FF00F2E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCFF5491D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib prueba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCFF54A1D37A3FF00F2E75B /* Debug */,
+				4CCFF54B1D37A3FF00F2E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CCFF54C1D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib pruebaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCFF54D1D37A3FF00F2E75B /* Debug */,
+				4CCFF54E1D37A3FF00F2E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CCFF54F1D37A3FF00F2E75B /* Build configuration list for PBXNativeTarget "Gib pruebaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCFF5501D37A3FF00F2E75B /* Debug */,
+				4CCFF5511D37A3FF00F2E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCFF5191D37A3FF00F2E75B /* Project object */;
+}
